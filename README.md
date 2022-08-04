@@ -1,4 +1,4 @@
 # ToUpperCase
 
-Please use UpperCase to execute the program.
+Please use file name - UpperCase to execute the program.
 Enjoy :)
