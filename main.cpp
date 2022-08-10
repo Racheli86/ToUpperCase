@@ -1,7 +1,5 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <cctype>
 
 using namespace std;
 
@@ -34,7 +32,7 @@ int main()
     } 
 
     //get the user input length and convert str to array
-    int size = str.length();
+    //int size = str.length();
 
     //empty string that holds the string after uppercase changes
     string str2;
