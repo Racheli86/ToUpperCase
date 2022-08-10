@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+///
 using namespace std;
 
 //Check whether a given input has integer in it
