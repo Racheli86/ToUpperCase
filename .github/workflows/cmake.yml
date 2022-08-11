@@ -25,7 +25,8 @@ jobs:
       with:
         version: latest
     - name: get permission     
-    permissions: read-all|write-all
+      run: chmod -R 777 ./
+
 
 
     - name: Configure CMake
