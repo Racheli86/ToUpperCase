@@ -44,6 +44,10 @@ jobs:
         echo is gcc installed?
         gcc --version
         echo
+        
+    - name: execute
+      run: ./UpperCase
+       
       
 
 
