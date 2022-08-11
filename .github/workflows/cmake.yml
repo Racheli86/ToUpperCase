@@ -30,7 +30,7 @@ jobs:
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
       
     - name: Run
-      run: ./text.exe
+      run: ./UpperCase
 
     #- name: Test
       #working-directory: ${{github.workspace}}/build
