@@ -1,8 +1,10 @@
-name: CMake
+name: CMake build project UpperCase
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
+      
   pull_request:
     branches: [ "main" ]
 
