@@ -46,7 +46,7 @@ jobs:
         echo
         
     - name: execute
-      run: ./UpperCase
+      run: ./UpperCase.exe
        
       
 
