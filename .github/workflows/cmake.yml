@@ -40,6 +40,10 @@ jobs:
         echo is git installed?
         git --version
         echo
+        
+        echo is gcc installed?
+        gcc --version
+        echo
       
 
 
