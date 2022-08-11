@@ -29,8 +29,19 @@ jobs:
       # Build your program with the given configuration
       run: cmake --build ${{github.workspace}}/build --config ${{env.BUILD_TYPE}}
       
-    - name: Run
-      run: ./UpperCase
+
+    - name: Run a multi-line script
+      #runs a set of commands
+      run: |
+        echo what is in this directory?
+        ls -a
+        echo 
+        
+        echo is git installed?
+        git --version
+        echo
+      
+
 
     #- name: Test
       #working-directory: ${{github.workspace}}/build
