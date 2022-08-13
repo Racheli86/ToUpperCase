@@ -74,7 +74,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v3
       with:
-          context: ./UpperCase
+          context: ./Dockerfile
           push: true
           tags: user/app:latest
       
