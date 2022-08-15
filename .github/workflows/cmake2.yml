@@ -32,7 +32,7 @@ jobs:
         name: artifact_${{ matrix.os }}_${{ matrix.configs }}.tar.gz
         
     - name: Run Makefile
-      run: make 
+      run: make ${{github.workspace}}/build/Makefile
 
  
       
