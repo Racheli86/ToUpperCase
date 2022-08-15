@@ -31,5 +31,7 @@ ______________________________________________________
    
 5. Linux distribution
    Ubuntu 20.04 LTS   
+   
+   Docker version 20.10.12, build 20.10.12-0ubuntu2~20.04.1
 
 Enjoy :)
