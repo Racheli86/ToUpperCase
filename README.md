@@ -43,7 +43,7 @@ ______________________________________________________
 
 ## Workflow
 
-This main action called 'Cmake + Docker Image'.
+The main workflow called 'Cmake + Docker Image'.
 This action is a combination of a few actions (which are still there for your convenience).
 'Cmake + Docker Image' has 2 jobs:
 1. Process that builds the project and creates the executable file.
