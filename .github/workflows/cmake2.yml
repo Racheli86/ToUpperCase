@@ -30,8 +30,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         path: ${{github.workspace}}/CmakeProject
-        name: artifact_${{ matrix.os }}_${{ matrix.configs }}.tar.gz
-        
+        name: artifact_${{ matrix.os }}_${{ matrix.configs }}.
       
     - name: Build the Docker image
       uses: actions/checkout@v2
