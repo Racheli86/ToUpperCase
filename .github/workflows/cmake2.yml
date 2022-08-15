@@ -1,4 +1,4 @@
-name: CMake
+name: CMake + Docker Image
 
 on:
  [workflow_dispatch]
