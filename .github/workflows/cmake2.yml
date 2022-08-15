@@ -32,6 +32,7 @@ jobs:
 
  seconed_job_Docker_Image:
    runs-on: ubuntu-latest
+   needs: first_job_Cmake
    steps:
       - uses: actions/checkout@v3
       - name: Build the Docker image
