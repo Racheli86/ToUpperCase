@@ -38,14 +38,7 @@ jobs:
       - name: Build the Docker image
         run: docker build . --file Dockerfile.yml --tag docker_image:$(date +%s)
         
-   # download_image
-      - name: Checkout project
-        uses: actions/checkout@v2
-   
-      - name: Download image
-        uses: ishworkh/docker-image-artifact-download@v1
-        with:
-            image: "docker_image:latest"
+
       
 
 
