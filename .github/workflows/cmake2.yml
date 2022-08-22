@@ -42,7 +42,7 @@ jobs:
           image: docker_image/image
           tags: v1, latest
           registry: docker.io/racheli-demo-repo
-          dockerfile: . 
+          dockerfile: . --file Dockerfile.yml
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
      
