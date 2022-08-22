@@ -39,7 +39,7 @@ jobs:
        - uses: mr-smithers-excellent/docker-build-push@v4
          name: Build & push Docker image
          with:
-          image: repo/image
+          image: racheli-demo-repo/image
           tags: v1, latest
           registry: docker.io
           dockerfile: . --file Dockerfile.yml
