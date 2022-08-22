@@ -41,7 +41,7 @@ jobs:
          with:
           image: repo/image
           tags: v1, latest
-          registry: registry-url.io
+          registry: docker.io
           dockerfile: . --file Dockerfile.yml
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
