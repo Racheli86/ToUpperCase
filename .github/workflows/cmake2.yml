@@ -39,10 +39,10 @@ jobs:
        - uses: mr-smithers-excellent/docker-build-push@v2
          name: Build & push Docker image
          with:
-          image: racheli-demo-repo/image
+          image: docker_image/image
           tags: v1, latest
-          registry: docker.io
-          dockerfile: . Dockerfile.yml
+          registry: docker.io/racheli-demo-repo
+          dockerfile: . 
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
      
